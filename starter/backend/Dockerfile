@@ -10,6 +10,7 @@ RUN apk update && \
   build-base \
   gcc \
   linux-headers \
+   python3-dev \
   openssl \
   libffi-dev \
   && pip install pipenv
